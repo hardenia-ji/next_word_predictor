@@ -7,3 +7,12 @@ The dataset used is the text form of the famous novel “Pride and Prejudice” 
 
 2.2. Data Preprocessing : 
 In this step,we tokenized the text data into individual words, converting each word into a numerical representation, and splitting the data into training, validation, and test sets.Since LSTM network can only work with numerical data so each word is then converted into a numerical representation using techniques such as one-hot encoding or word embeddings.
+
+2.3. LSTM Model Architecture Design : 
+This involves determining the number of LSTM layers(2), the number of hidden units per layer(1000), the learning rate(0.001), and other hyper-parameters. 
+
+2.4. Training the Model : 
+Once the LSTM model architecture has been defined, the model is trained on the training set using the sequence of words as input and the next word as output. During training, the weights of the LSTM network are adjusted to minimize the difference between the predicted and actual next words. The training process involves several epochs(70), where the entire dataset is fed to the model multiple times to refine the model’s parameters.
+
+2.5. GUI Design :
+After the training, the GUI is build for the user to interact with the model with the help of Tkinter module in Python. The GUI enables the user to get real time next word suggesstions while typing. The User can type words on the empty text area and word predictions are provided on the right side similtaneously.
