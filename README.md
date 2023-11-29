@@ -16,3 +16,5 @@ Once the LSTM model architecture has been defined, the model is trained on the t
 
 2.5. GUI Design :
 After the training, the GUI is build for the user to interact with the model with the help of Tkinter module in Python. The GUI enables the user to get real time next word suggesstions while typing. The User can type words on the empty text area and word predictions are provided on the right side similtaneously.
+
+<img width="371" alt="Screenshot 2023-11-30 040848" src="https://github.com/hardenia-ji/next_word_predictor/assets/114081218/28438527-cc78-4cbe-9238-8e38389ed27f">
